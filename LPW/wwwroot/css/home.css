@@ -1,0 +1,69 @@
+﻿section {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.65;
+    margin-top: 4rem;
+}
+
+.card-aviao {
+    margin-top:0px;
+    height: 650px;
+    background-image: url("../imagens/Aviao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-problema {
+    height: 100%;
+    width: 500px;
+    background-image: url("../imagens/Problema.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-ajuda {
+    height: 100%;
+    width: 600px;
+    background-image: url("../imagens/Logo-Grande.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.info-box{
+    height: 100%;
+    width: 100%;
+    align-items:center;
+    text-align:initial;
+}
+
+h1.info {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Arvo',serif;
+}
+
+p.info {
+    font-size: 1rem;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+svg {
+    height: 68px;
+    width: 68px;
+}
+
+.li-text {
+    font-size: 1rem;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+.form-title{
+    align-items:center;
+    justify-content:center;
+}

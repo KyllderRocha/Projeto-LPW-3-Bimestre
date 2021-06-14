@@ -1,0 +1,45 @@
+﻿@model FormModel
+@{
+    ViewData["Title"] = "Agradecimento";
+}
+
+<link rel="stylesheet" href="~/css/home.css" />
+
+<div class="text-center container">
+    <section class="form">
+        <h3 class="form-title text-center">
+            Obrigado! Entraremos em contato
+        </h3>
+        <div class="row text-left">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <h3 class="form-title text-left">
+                    Seus dados:
+                </h3>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" readonly value="@Model.nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" readonly value="@Model.email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Telefone" readonly value="@Model.telefone">
+                </div>
+                <div class="form-group">
+                    <label for="caso">Caso:</label>
+                    <input type="text" class="form-control" id="caso" readonly value="@Model.caso" />
+                </div>
+            </div>
+
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+    </section>
+</div>
